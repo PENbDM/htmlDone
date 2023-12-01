@@ -1,0 +1,42 @@
+a {
+  font-size: 40px;
+}
+
+header h1,
+header h2,
+main h1,
+main h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+  background-color: wheat;
+  height: 100vh;
+  padding: 20px;
+}
+.img1 {
+  padding-left: 50px;
+  border-radius: 50%;
+}
+
+.img2 {
+  margin-left: 200px;
+  border: 10px solid #555;
+}
+
+.unorderedList {
+  color: blueviolet;
+}
+.orderedList {
+  color: rgb(202, 0, 206);
+}
